@@ -1,0 +1,55 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "Century Gothic", sans-serif;
+    color: rgb(50, 50, 50);
+}
+
+h1, h2, h3, h4, h5, p {
+    font-weight: 300;
+    text-align: center;
+}
+
+header {
+    background-color: #fccabe;
+}
+
+.metric {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between;
+    height: 130px;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+
+.pretty_container {
+    box-shadow: 2px 2px 2px #d3d3d3;
+    background-color: #f9f9f9;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+
+#wordCloud {
+    height: auto;
+    width: auto;
+    max-width: 90%;
+    max-height: 70%;
+    margin: auto;
+}
+
+*[data-dash-is-loading="true"]{
+    visibility: hidden;
+}
+/**[data-dash-is-loading="true"]::before{*/
+/*    content: "Loading...";*/
+/*    display: inline-block;*/
+/*    color: magenta;*/
+/*    visibility: visible;*/
+/*}*/
